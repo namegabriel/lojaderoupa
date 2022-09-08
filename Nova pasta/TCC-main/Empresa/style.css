@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(231, 231, 231);
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    background-size: 150vh;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+    margin-bottom: 0;
+}
+
+.bordinha{
+    border: 1px solid gray ;
+    transition: 1s;
+}
+
+.bordinha:hover{
+    background-color: #bfbf5e;
+    color: #d56b1d;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navegacao h1{
+    text-align: center;
+    padding-right: 500px;
+}
+
+.navegacao img{
+    width: 100px;
+    cursor: pointer;
+    height: 50%;
+}
+
+.opicoes ul{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.opicoes ul li{
+    text-align: center;
+    padding-right: 100px;
+    list-style-type: none;
+}
+    
+
+h2{
+    color:black;
+    text-align: center;
+}
+
+p{
+    
+    text-align: right;
+    
+}
+.maps{
+    background-color:  rgb(231, 231, 231);
+}
+
+.maps-paragrafo{
+    margin-left: 420px;
+    margin-right: 50px;
+    text-align: justify;
+}
+fieldset{
+    background-color: rgb(255, 255, 255)
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(71, 71, 71);
+    background-color: rgb(255, 255, 255);
+}
+
+.contato{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;}
+.contato-titulo{
+    text-align: center;
+}
+.contato-paragrafo{
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 250px ;
+    margin-bottom: 120px;
+}
+ 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}

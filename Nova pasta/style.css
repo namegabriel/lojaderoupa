@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #9a5833;
+
+}
+
+header{
+    background-image: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: 160vh;
+    color: #ffffff;
+    text-shadow: 1px 1px black;
+    margin-bottom: 0;
+}
+
+.bordinha{
+    border: 1px solid gray ;
+    transition: 1s;
+}
+
+.bordinha:hover{
+    background-color: #bfbf5e;
+    color: #d56b1d;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navegacao h1{
+    text-align: center;
+    padding-right: 500px;
+}
+
+.navegacao img{
+    width: 100px;
+    cursor: pointer;
+    height: 50%;
+}
+
+.opicoes ul{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.opicoes ul li{
+    text-align: center;
+    padding-right: 100px;
+    list-style-type: none;
+}
+
+.novidades{
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+}
+
+button{
+    text-align: right;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #ffffff;
+    padding: 20px;
+    margin-left: 15px;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: #bfbf5e;
+    color: #d56b1d;
+}
+
+
+.rodape{
+    background-color: #9a5833;
+    color: #ffffff;
+}
+.h3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tres{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 30px;
+    border: none;
+}
+
+.copirith{
+    padding-top: 50px;
+}
